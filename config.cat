@@ -1,0 +1,9 @@
+mode "soundboard" {
+#       bindsym $key   exec soundboard.sh "<group>" "<sound>"
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+	bindsym $mod+x mode "default"
+}
+
+bindsym $mod+x mode "soundboard"
