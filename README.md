@@ -7,7 +7,7 @@ config section and shell script for controlling a [soundboard](https://github.co
 Append this to your i3 config, then add key bindings as you like.
 
 ```sh
-cat .config/i3/config config.cat | sponge .config/i3/config
+cat config.cat >> .config/i3/config
 ```
 
 ## soundboard.sh
